@@ -1,0 +1,376 @@
+
+
+a:link {color: white;
+	
+}
+
+a:visited {color: white;
+}
+
+
+.header {width:100%;
+		background-color: black;
+		height: 100%;
+		float: left;
+
+}
+
+.logo   {background-color:black;
+		color: white; 
+		float: left; 
+		width: 92%;
+		padding: 2.80%;
+		font-size:40px;	 
+		font-family: 'Dosis';
+		font-stretch: ultra-expanded;
+		cursor:grab;
+		margin: auto; 
+		text-align: center;
+		
+	
+}
+
+
+
+
+.container   {min-width: 100%;
+			margin: auto;
+			display: block;			
+}
+
+
+	
+
+.boxtwo { background-color:#d8dfe1;
+		background-image: url('pic1.jpg'); 
+		background-size: cover; 
+		color: white; 
+		font-size: 30px;
+		font-family: 'Dosis';
+		font-stretch: ultra-expanded;
+		float: clear; 
+		max-width:100%; 
+		height: 500px;
+		text-align: center;
+		background-repeat: no-repeat; 
+		background-attachment: fixed;
+		background-position: center; 
+		padding: 3%; 
+		margin: auto; 
+		font-weight: bold;
+			
+}
+
+.popup  {background-color: #ffa162;
+		width: 21%; 
+		padding: 4.10%;
+		height: 500%;
+		float: left;
+		text-align: center;		
+		border-bottom: 1px solid white;
+		cursor: pointer;
+		margin: auto; 		
+		
+		
+}
+
+.popup:hover    {
+
+  animation: shake 0.8s; 
+  animation-iteration-count: 0.7;
+  margin: auto; 
+ 
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+ 
+ 
+	 
+.boxthree {float: left; 
+		background-color: cream;
+		color: #000014;
+		width: 36.73%; 
+		height: 500%;
+		font-size: 22px;
+		text-align: center;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		padding: 1%;
+		font-family: 'Dosis';
+		font-stretch: ultra-expanded;
+		text-decoration: underline; 
+		cursor:not-allowed;
+		border-bottom: 1px solid #d8dfe1;
+		margin: auto; 
+	
+}
+
+.specials {background-color: #ffa162;
+		width: 23.46%; 
+		float: right;
+		text-align: center;
+		padding: 4.17%;
+		border-bottom: 1px solid white;	
+		margin: auto;
+		height: 500%
+		
+}
+
+.specials:hover    {
+
+  animation: shake 0.8s; 
+  animation-iteration-count: 0.7;
+  margin: auto; 
+ 
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+ 
+
+		
+
+.boxfour  {float: left;
+		background-color: #ffa162;
+		width: 100%;
+		height: 800%;
+		color: #000014;
+		text-align: center;
+		font-size: 22px;
+		font-family: 'Dosis';
+		font-stretch: ultra-expanded;
+		margin: auto; 		 
+}
+
+
+.images {float: left;
+		padding:0.50%;
+		background-color: #ffa162;
+		width: 99%;
+		height: 300%;
+		color: #000014;
+		text-align: center;
+		margin: auto; 			 
+}
+		 
+
+
+.footer {
+			float: left;
+			background-color:black;
+			width: 100%;
+			height: 100%; 
+			margin: auto; 
+
+} 
+
+
+.aboutus  {
+			float: left;
+			background-color:black;
+			width: 8%;
+			padding: 4%;
+			height: 100%; 
+			font-size: 25px;
+			color: white; 
+			font-family: 'Dosis';
+			font-stretch: ultra-expanded;
+			margin: auto; 
+
+}
+
+
+.contact {
+			float: left;
+			background-color:black;
+			width: 8%;
+			height: 100%; 
+			padding: 4%;
+			font-size: 25px;
+			color: white;
+			font-family: 'Dosis';
+			font-stretch: ultra-expanded;
+			margin: auto; 
+}
+
+.careers    {
+	
+			float: left;
+			background-color:black;
+			width: 33.0%;
+			height: 100%; 
+			padding: 4%;	
+			font-size: 25px;
+			color: white;
+			font-family: 'Dosis';
+			font-stretch: ultra-expanded;
+			margin: auto; 			
+}
+
+	
+	
+
+.facebook   {
+	
+			float: right;
+			background-color:black;
+			width: 1%;
+			height: 100%; 
+			padding:4%;
+			font-size: 30px;
+			color: white;
+			margin: auto; 
+}
+
+
+.tiktok   {
+	
+			float: right;
+			background-color:black;
+			width: 1%;
+			height: 100%; 
+			padding: 4%; 
+			font-size: 30px;
+			color: white;
+			margin: auto; 
+}	
+
+.insta   {
+	
+			float: right;
+			background-color:black;
+			width: 1%;
+			height: 100%; 
+			padding:4%;
+			
+			font-size: 30px;
+			color: white;
+			margin: auto; 
+			
+}	
+
+.thumbnail:hover {
+    position:relative;
+    top:-20px;
+    left:-20px;
+    width:40px;
+    height:20;
+    display:block;
+    z-index:999;
+}
+
+@media only screen and (max-width: 600px) {
+
+.container { height: 100%;
+			width: 100%;
+}
+
+   
+	
+	 .boxthree { 
+		
+      display: none;
+
+    }
+	
+.box3  { 
+		float: none;
+      width: auto;
+	 display: block;
+
+    }
+
+.popup  { 
+		float: none;
+      width: 100%;
+	 display: block;
+
+    }
+	
+	.specials  { 
+	display: none;
+
+    }
+	
+	.box3  { 
+
+      width: 100%;
+	 
+    }
+	
+	.logo
+	{ 
+
+      font-size: 30px;
+	  width: 30%
+	 
+    }
+	
+	.nav1
+	{ 
+
+      font-size: 25px;
+	  width: 10%
+	 
+    }
+	
+	.nav2
+	{ 
+
+      font-size: 25px;
+	  width: 10%
+	 
+    }
+	
+	.dinein 
+	{ 
+
+      display: none;
+	 
+    }
+	
+	.aboutus {width: 15%;
+		font-size: 20px;
+	}
+	
+	.contact 
+	{ 
+
+      width: 15%;
+	  font-size: 20px;
+	 
+    }
+	
+	.careers
+	{ 
+
+      width: 15%;
+	  font-size: 20px;
+	 
+    }
+
+
+
